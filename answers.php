@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 
 ########################################################
 # __   ___              __      __  ___       __   __  #
@@ -25,6 +26,8 @@ function end() {
 
 
 
+=======
+>>>>>>> 1eac7dde81c23b293aa70f7f49e2bfdaa36b66b6
 ########################################################
 # __   ___              __      __  ___       __   __  #
 #|  \ |__  |\ | |\ | | /__`    /  \  |  |  | / _` /  \ #
@@ -368,10 +371,20 @@ function bytenaija_time($location) {
 for any reason*/
 function myCreator(){
     return "Adokiye is my creator he is currently in stage 4 of the HNG internship, he will soon advance to stage 5";
+<<<<<<< HEAD
 }function get_current_time(){
     date_default_timezone_set('Africa/Lagos');
     $currentTime = date('Y-M-D H:i:s');
     return $currentTime;
+=======
+}
+
+function get_current_time(){
+    date_default_timezone_set('Africa/Lagos');
+    $currentTime = date('Y-M-D H:i:s');
+    return $currentTime;
+}
+>>>>>>> 1eac7dde81c23b293aa70f7f49e2bfdaa36b66b6
 /*end of
 Adokiye's function*/
 ?>
